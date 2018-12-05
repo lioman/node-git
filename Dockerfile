@@ -1,4 +1,3 @@
-FROM node:carbon-stretch
+FROM node:lts-stretch
 
 RUN apt-get install -y git
-
